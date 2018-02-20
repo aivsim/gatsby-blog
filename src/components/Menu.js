@@ -15,6 +15,8 @@ class Header extends React.Component {
         <Link style={{ boxShadow: 'none', textDecoration: 'none', color: 'inherit' }} to={'/'}>Home</Link>
         <span> | </span>
         <Link style={{ boxShadow: 'none', textDecoration: 'none', color: 'inherit' }} to={'/blog'}>Blog</Link>
+        <span> | </span>
+        <Link style={{ boxShadow: 'none', textDecoration: 'none', color: 'inherit' }} to={'/projects'}>Projects</Link>
       </div>
     )
   }

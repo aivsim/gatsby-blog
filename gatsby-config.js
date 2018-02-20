@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: 'Aivaras Šimulis Blog',
+    title: 'Aivaras Šimulis',
     author: 'Aivaras Šimulis',
     description: 'My personal blog demonstrating my professional work, thoughts, activities, gratitude and accomplishments.',
     siteUrl: 'https://aivarassimulis.xyz/',
   },
-  pathPrefix: '/aivarassimulis',
+  pathPrefix: '/',
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
